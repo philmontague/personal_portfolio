@@ -2,11 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0; 
     padding: 0; 
+    color: #ccc; 
 }
 
 a { 
     text-decoration: none;
-    color: #333; 
+    color: #6bc4ff; 
 }
 
 /* Navigation */
@@ -37,6 +38,73 @@ a {
 .nav-links a { 
     color: #ccc;
 }
+
+
+/* Main Content */ 
+.main-body { 
+    /* background-color: #f7f7f7; */
+    background-image: linear-gradient(to right top, #585b66, #515362, #4b4c5e, #454459, #403c54);
+    padding: 2rem; 
+    text-align: center;
+    color: #fff; 
+}
+
+h1 { 
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 { 
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+p { 
+    margin-bottom: 1rem;
+}
+
+/* About */
+.about-section { 
+    border: 2px solid #ccc; 
+    padding: 1.5rem; 
+    margin-bottom: 2rem; 
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-section img { 
+    border-radius: 10px;
+}
+
+.about-section p { 
+    text-align: center;
+    line-height: 1.5;
+    color: #ccc; 
+}
+
+.about-section h2 { 
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Portfolio */
+.project { 
+    border: 2px solid #ccc; 
+    padding: 1.5rem; 
+    margin-bottom: 2rem;
+    background-color: #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.project-name { 
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 0.25px;
+    margin-bottom: 1rem;
+}
+
 
 /* Footer */
 footer { 
