@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     </head>
 
     <body>
@@ -24,28 +25,29 @@
             </div>
         </nav>
 
-        <!-- Main Body Content -->
-        <div class="main-body homepage">
-            <div class="profile-image">
-                <img src="images/profile-photo.jpg" alt="Phil Montague">
-            </div>
-            <h1>Hi, I'm Phil</h1>
-            <h2 class="job-title">Aspiring Web Developer</h2>
-            <p class="bio">Welcome to my portfolio website. I'm passionate about
-                creating web applications that make a
-                difference.</p>
-        </div>
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form action="contact.html" method="get">
+                <!-- First Name -->
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
 
-        <!-- JUST EXPERIMENTING/PROTOTYPING -->
-        <div class="icon-container">
-            <h2 class="job-title">
-                <span class="icon"><i class="fab fa-js"></i></span>
-                <span class="icon"><i class="fab fa-html5"></i></span>
-                <span class="icon"><i class="fab fa-css3"></i></span>
-                <span class="icon"><i class="fab fa-react"></i></span>
-                <span class="icon"><i class="fab fa-github"></i></span>
-                <span class="icon"><i class="fab fa-php"></i></span>
-            </h2>
+                <!-- Last Name -->
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Message -->
+                <label for="message">Say Hi!</label>
+                <textarea id="message" name="message" rows="4"
+                    placeholder="Hello World!"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
         </div>
 
         <!-- Footer -->
